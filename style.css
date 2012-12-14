@@ -56,7 +56,7 @@ img.aligncenter {
 	background: url(images/img03.gif) no-repeat center top;
 }
 
-/* Header */
+/* cabeçalho */
 
 #header-wrapper {
 	height: 167px;
@@ -113,47 +113,8 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
-/* Search */
-
-#search {
-	float: right;
-	width: 280px;
-	height: 100px;
-	padding: 0;
-}
-
-#search form {
-	height: 41px;
-	margin: 0;
-	padding: 60px 0 0 30px;
-}
-
-#search fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-#search-text {
-	width: 195px;
-	padding: 6px 10px;
-	border: none;
-	background: #FFFFFF;
-	text-transform: lowercase;
-	font: normal 11px Arial, Helvetica, sans-serif;
-	color: #7F7F81;
-}
-
-#search-submit {
-	display: none;
-}
 
 /* Menu */
-
-#menu-wrapper {
-	background: url(images/img03.gif) no-repeat center top;
-	height: 58px;
-}
 
 #menu {
 	width: 940px;
@@ -164,12 +125,12 @@ img.aligncenter {
 
 
 #menu li {
-	float: right;
+	float: left;
 }
 
 #menu a {
 	display: block;
-	float: right;
+	float: left;
 	height: 56px;
 	margin: 0px;
 	padding: 0px 30px 0px 30px;
@@ -193,11 +154,8 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
-/* Page */
+/* Página */
 
-#page {
-	background: url(images/img05.gif) repeat-y center top;
-}
 
 #page-bgtop {
 	background: url(images/img04.gif) no-repeat center top;
@@ -214,7 +172,7 @@ img.aligncenter {
 	margin: 0px auto;
 }
 
-/* Content */
+/* Conteúdo */
 
 #content {
 	float: left;
@@ -230,28 +188,6 @@ img.aligncenter {
 .post .title {
 	padding-top: 10px;
 	letter-spacing: -2px;
-}
-
-.post .title a {
-	color: #2483A6;
-	border: none;
-}
-
-.post .meta {
-	padding-bottom: 10px;
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-style: italic;
-}
-
-.post .meta a {
-}
-
-.post .entry {
-	text-align: justify;
-	margin-bottom: 25px;
-	padding: 10px 0px 0px 0px;
 }
 
 .links {
@@ -285,4 +221,8 @@ img.aligncenter {
 
 #footer a {
 	color: #576475;
+}
+
+fieldset {
+	width: 500px;
 }
