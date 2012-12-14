@@ -156,6 +156,11 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
+#menu ul {
+	margin: 0;
+	margin-left: 69px;
+}
+
 /* Página */
 
 
@@ -166,7 +171,7 @@ img.aligncenter {
 #page-bgbtm {
 	overflow: hidden;
 	padding: 40px 30px 0px 30px;
-	background: url(images/img06.gif) no-repeat center bottom;
+	/* background: url(images/img06.gif) no-repeat center bottom; */
 }
 
 #page-content {
