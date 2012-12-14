@@ -116,11 +116,13 @@ img.aligncenter {
 
 /* Menu */
 
+
 #menu {
-	width: 940px;
+	background: url(images/img03.gif) no-repeat center top;
+	background-repeat: repeat-y;
+	width: 1182px;
 	height: 58px;
 	margin: 0px auto;
-	padding: 0px 20px 0px 20px;
 }
 
 
